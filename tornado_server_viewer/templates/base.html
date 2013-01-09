@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+{% block head %}{% end %}
+<body class="hidden">
+	<div class="container-outer">
+		<div class="container-inner">
+			{% block header %}{% end %}
+			{% block content %}{% end %}
+		</div>
+	</div>
+	{% block scripts_styles %}{% end %}
+
+</body>
+</html>
